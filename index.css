@@ -20,8 +20,9 @@ body {
 }
 .social-button {
 	float:right;
-	text-align: center;
 	margin: 2px 5px;
+	height: 32px;
+	width: auto;
 }
 
 .header-link {
@@ -29,6 +30,10 @@ body {
 	float: left;
 	width: 50%;
 	text-align: center;
+}
+
+#header {
+	margin: 0px 15%;
 }
 
 #header:after {
@@ -43,17 +48,27 @@ body {
 .header-image {
 	z-index: -1;
 	max-width: 6016px;
+	min-height: 400px;
+	min-width: 1066px;
 	width: 100%;
 	height: auto;
-	position: absolute;
 }
 
 .title {
-	height: calc(100% * 2248px / 6016px);
+	font-size: 300%;
+	height: inherit;
+	width: 100%;
 	text-align: center;
 	margin-top: 0px;
+	position: absolute;
+	top: 100px;
 }
 
 #main-content {
 	margin: 8px;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
 }
