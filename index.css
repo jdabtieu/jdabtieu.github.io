@@ -1,0 +1,59 @@
+body {
+	margin: 0px;
+	font-family: Calibri, Helvetica, sans-serif;
+}
+
+#social {
+	align: middle;
+	line-height: 42px;
+	background-color: rgb(56, 159, 255);
+	height: 42px;
+	font-size: large;
+	width: inherit;
+}
+
+.home-button {
+	
+	margin: 0px 10px;
+	font-size: 120%;
+	text-align: left;
+}
+.social-button {
+	float:right;
+	text-align: center;
+	margin: 2px 5px;
+}
+
+.header-link {
+	margin: 5px 0px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+#header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#home-banner {
+}
+
+.header-image {
+	z-index: -1;
+	max-width: 6016px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.title {
+	height: calc(100% * 2248px / 6016px);
+	text-align: center;
+	margin-top: 0px;
+}
+
+#main-content {
+	margin: 8px;
+}
