@@ -4,16 +4,16 @@ body {
 }
 
 #social {
+	color: white;
 	align: middle;
 	line-height: 42px;
 	background-color: rgb(56, 159, 255);
-	height: 42px;
 	font-size: large;
 	width: inherit;
 }
 
 .home-button {
-	
+	color: inherit;
 	margin: 0px 10px;
 	font-size: 120%;
 	text-align: left;
@@ -21,7 +21,6 @@ body {
 .social-button {
 	float:right;
 	margin: 2px 5px;
-	height: 32px;
 	width: auto;
 }
 
@@ -43,6 +42,8 @@ body {
 }
 
 #home-banner {
+	position: relative;
+	overflow: auto;
 }
 
 .header-image {
@@ -52,16 +53,16 @@ body {
 	min-width: 1066px;
 	width: 100%;
 	height: auto;
+	position: float;
 }
 
 .title {
-	font-size: 300%;
+	position: absolute;
+	top: 25%;
+	font-size: 7vw;
 	height: inherit;
 	width: 100%;
 	text-align: center;
-	margin-top: 0px;
-	position: absolute;
-	top: 100px;
 }
 
 #main-content {
