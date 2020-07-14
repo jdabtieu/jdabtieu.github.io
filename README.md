@@ -1,3 +1,5 @@
-This is a repository I use for testing static pages. I do not guarantee the accuracy of any information presented on jdabtieu.github.io.
+This is a repository I use for testing static pages.
 
-For my website, please refer to [https://github.com/jdabtieu/jdabtieu-site](https://github.com/jdabtieu/jdabtieu-site)
+This repository is not my website. For my website, please refer to [https://github.com/jdabtieu/jdabtieu-site](https://github.com/jdabtieu/jdabtieu-site)
+
+I do not guarantee the accuracy of any information presented in this repository or on [https://jdabtieu.github.io](https://jdabtieu.github.io)
